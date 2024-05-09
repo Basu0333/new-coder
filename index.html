@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-    
 </head>
-<body>
-    <form>
-     <input type="text" id="username" value="" placeholder="username">
-     <input type="password" id="userpassword" value="" placeholder="password">
-     <button onclick="checkingvalue()">Check</button>
-    </form>
-            <script>
-                 function checkingvalue(){
-                  var user = document.getElementById("username").value;
-                  var password = document.getElementById("userpassword").value;
-                  alert("The username is " + user);
-                  alert("The password is " + pass);
-                 }
+<body> 
+<h2> Addeventlistner </h2>
+    <P>
+        this is eventlistner execute method  a user click on a button
+    </P>
 
-            </script>
+    <button id="myBtn">return basu</button>
+    <script>
+    document.getElementById("myBtn").addEventListener("click", myFunction);
+        function myFunction() {
+           alert ("Hello World!");
+                }
 
-
-    </body>
+    </script>
+</body>
+</html>
