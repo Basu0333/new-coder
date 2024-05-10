@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events in javascript</title>
+    <style>
+        #myDiv {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        text-align: center;
+        line-height: 200px;
+        cursor: pointer;}
+        #myDiv1 {
+            width: 190px;
+            height: 190px;
+            background-color: blueviolet;
+            text-align:center ;
+            line-height: 150px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body> 
+    <button id="btn1">Click me</button>
+    <div id="myDiv">Some content</div>
+
+    <br>
+    <button id="btn2">BASU!</button>
+    <div id="myDiv1">NEWCODER</div>
+    
+    <h2> Addeventlistner </h2>
+    <p>
+      this is eventlistner execute method  a user click on a button
+
+   </p>  
+  <button id="myBtn">return basu</button>
+  <script>
+  document.getElementById("myBtn").addEventListener("click", myFunction);
+      function myFunction() {
+        alert ("Hello World!");
+              }
+  </script>
+
+
+  <h1>javascript event</h1>
+  <h2>new coder to code</h2>
+      <button onclick="document.getElementById('basu').innerHTML=Date()">search the time</button>
+      <p id="basu"></p>
+
+
+
+
+
+<script>
+    // Selecting the button and div using querySelector
+    let btn1 = document.querySelector("#btn1");
+    let myDiv = document.querySelector("#myDiv");
+    let mymeta = document.querySelector("#mymeta");
+    let mydata = document.querySelector("#mydata");
+    // Adding a click event listener to the button
+    btn1.addEventListener("mouseenter", () => {
+        myDiv.style.backgroundColor = "green";
+        // console.log("Button was clicked");
+    });
+
+    // Adding a click event listener to the div
+    myDiv.addEventListener("mouseleave", () => {
+        myDiv.style.backgroundColor = "blue";
+        //console.log("Div was mousehover");
+    });
+
+    btn2.addEventListener("mouseenter", () => {
+        myDiv1.style.backgroundColor = "red";
+    });
+
+    myDiv1.addEventListener("mouseleave", () => {
+        myDiv1.style.backgroundColor = "orange";
+    });
+    
+</script>
+
+</body>
+</html>
