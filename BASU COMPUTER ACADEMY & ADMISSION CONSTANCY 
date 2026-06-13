@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basu Computer Class & Admission Consultancy</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+}
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+section{
+    padding:20px;
+    max-width:1000px;
+    margin:auto;
+}
+.card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+ul{
+    line-height:1.8;
+}
+.btn{
+    display:inline-block;
+    background:#0077cc;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Basu Computer Class & Admission Consultancy</h1>
+<p>Computer Training | Admission Guidance | Career Counselling</p>
+</header>
+
+<section>
+
+<div class="card">
+<h2>About Us</h2>
+<p>
+We provide Computer Education, Admission Consultancy,
+Online Services, and Career Guidance for students.
+</p>
+</div>
+
+<div class="card">
+<h2>Our Services</h2>
+<ul>
+<li>ADCA, DCA & Basic Computer Course</li>
+<li>MS Office, Excel & Tally Training</li>
+<li>BCA, BBA, BA, B.Com Admission Guidance</li>
+<li>IGNOU Admission Support</li>
+<li>Online Form Fill-up</li>
+<li>Scholarship & Career Counselling</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Contact Us</h2>
+<p><strong>Name:</strong> Basu Kumar</p>
+<p><strong>Mobile:</strong> 8368257672</p>
+<p><strong>Email:</strong> basukumar352@gmail.com</p>
+<a href="tel:8368257672" class="btn">Call Now</a>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Basu Computer Class & Admission Consultancy. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
