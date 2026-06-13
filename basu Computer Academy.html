@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basu Computer Academy</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:Poppins,sans-serif;
+background:#0f172a;
+color:white;
+scroll-behavior:smooth;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+background:rgba(0,0,0,.7);
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+header a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+}
+
+.hero h1{
+font-size:60px;
+color:#00ffff;
+text-shadow:0 0 20px cyan;
+}
+
+.btn{
+padding:12px 25px;
+background:#00ffff;
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#00ffff;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.about{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+align-items:center;
+}
+
+.about img{
+width:300px;
+border-radius:20px;
+}
+
+form input,form select{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+}
+
+form button{
+padding:12px 25px;
+background:#00ffff;
+border:none;
+font-weight:bold;
+}
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+padding:15px;
+border-radius:50px;
+color:white;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#admission">Admission</a>
+<a href="#contact">Contact</a>
+</header>
+
+<section class="hero" id="home">
+<h1>Basu Computer Academy</h1>
+<p>Computer Training Institute & Admission Consultancy</p>
+<br>
+<a class="btn" href="#admission">Apply Now</a>
+</section>
+
+<section id="about">
+<h2 class="title">Founder & Director</h2>
+<div class="about">
+<img src="founder.jpg" alt="Founder">
+<div>
+<h3>Basu Kumar</h3>
+<p>
+Providing quality computer education and admission guidance
+for professional courses.
+</p>
+</div>
+</div>
+</section>
+
+<section id="courses">
+<h2 class="title">Courses & Admissions</h2>
+
+<div class="cards">
+<div class="card">ADCA</div>
+<div class="card">DCA</div>
+<div class="card">CCC</div>
+<div class="card">Tally Prime</div>
+<div class="card">Typing</div>
+<div class="card">BCA</div>
+<div class="card">MCA</div>
+<div class="card">B.Tech</div>
+<div class="card">BBA</div>
+<div class="card">MBA</div>
+<div class="card">B.Com</div>
+<div class="card">B.Pharma</div>
+<div class="card">GNM</div>
+<div class="card">B.Sc Nursing</div>
+<div class="card">Polytechnic</div>
+<div class="card">ITI</div>
+</div>
+
+</section>
+
+<section id="admission">
+<h2 class="title">Online Admission Form</h2>
+
+<form>
+<input type="text" placeholder="Student Name">
+<input type="tel" placeholder="Mobile Number">
+<input type="email" placeholder="Email">
+<select>
+<option>Select Course</option>
+<option>ADCA</option>
+<option>DCA</option>
+<option>BCA</option>
+<option>B.Tech</option>
+<option>BBA</option>
+<option>Nursing</option>
+</select>
+<button type="submit">Submit</button>
+</form>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact Us</h2>
+
+<p>📞 8368257672</p>
+<p>📧 basukumar352@gmail.com</p>
+<p>📍 Vill Ranjeet Ganj, Post Ramdihra, P.S. Amjhor, Bihar - 821312</p>
+</section>
+
+<footer>
+© Basu Computer Academy | All Rights Reserved
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/918368257672">
+WhatsApp
+</a>
+
+</body>
+</html>
